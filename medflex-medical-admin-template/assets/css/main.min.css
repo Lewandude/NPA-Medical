@@ -15277,7 +15277,7 @@ a:hover {
 .icon-box,
 .modal-content,
 .btn {
-    box-shadow: inset 1.5px 1.5px 0px rgba(255, 255, 255, .25), inset -1.5px -1.5px 0px rgba(0, 0, 0, .1)
+    box-shadow: inset 1.5px 1.5px 0px rgba(168, 230, 185), inset -1.5px -1.5px 0px rgba(0, 0, 0, .1)
 }
 
 .card-shadow,
@@ -16148,7 +16148,7 @@ input[type=file]::file-selector-button {
 
 .toggle-sidebar i,
 .pin-sidebar i {
-    color: #116aef;
+    color: #258640;
     font-size: 1rem
 }
 
@@ -16332,7 +16332,7 @@ input[type=file]::file-selector-button {
 .app-header {
     padding: 0 1.25rem;
     min-height: 50px;
-    background: #116aef;
+    background: #ffffff;
     position: sticky;
     top: 0;
     z-index: 100
@@ -16376,7 +16376,7 @@ input[type=file]::file-selector-button {
 .header-actions .header-icon {
     width: 30px;
     height: 30px;
-    color: #fff;
+    color: #258640;
     font-weight: 700;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -16396,12 +16396,12 @@ input[type=file]::file-selector-button {
     transition: all ease .5s;
     min-height: 30px;
     padding-left: 36px;
-    border: 0
+    border: 2;
 }
 
 .search-container .form-control:focus {
     min-width: 240px;
-    box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .1)
+    box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .1);
 }
 
 .search-container i {
@@ -16409,7 +16409,7 @@ input[type=file]::file-selector-button {
     left: 10px;
     top: 7px;
     line-height: 1;
-    color: #116aef;
+    color: #258640;
     font-size: 1.25rem
 }
 
@@ -16417,8 +16417,8 @@ input[type=file]::file-selector-button {
     width: 38px;
     height: 38px;
     color: #fff;
-    background: #116aef;
-    border: 3px solid #116aef;
+    background: #258640;
+    border: 3px solid #258640;
     display: flex;
     align-items: center;
     justify-content: center;
