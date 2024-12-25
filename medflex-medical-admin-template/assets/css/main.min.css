@@ -5828,7 +5828,7 @@ fieldset:disabled .btn {
     --bs-breadcrumb-border-radius: ;
     --bs-breadcrumb-divider-color: var(--bs-secondary-color);
     --bs-breadcrumb-item-padding-x: 0.5rem;
-    --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
+    color: #258640;
     display: flex;
     flex-wrap: wrap;
     padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
@@ -5871,8 +5871,8 @@ fieldset:disabled .btn {
     --bs-pagination-focus-bg: var(--bs-secondary-bg);
     --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(17, 106, 239, 0.25);
     --bs-pagination-active-color: #ffffff;
-    --bs-pagination-active-bg: #116aef;
-    --bs-pagination-active-border-color: #116aef;
+    --bs-pagination-active-bg: #258640;
+    --bs-pagination-active-border-color: #258640;
     --bs-pagination-disabled-color: var(--bs-secondary-color);
     --bs-pagination-disabled-bg: var(--bs-secondary-bg);
     --bs-pagination-disabled-border-color: var(--bs-border-color);
@@ -15789,7 +15789,7 @@ input[type=file]::file-selector-button {
 .breadcrumb .breadcrumb-item i {
     font-size: 1.5rem;
     margin-right: .75rem;
-    color: #116aef
+    color: #258640;
 }
 
 .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
@@ -16091,13 +16091,14 @@ input[type=file]::file-selector-button {
 }
 
 .sidebar-wrapper {
-    background-color: #fff;
+    background-color: #F6F9FB;
     width: 250px;
     position: fixed;
     top: 50px;
     left: 0;
     bottom: 0;
     z-index: 101;
+    border-radius: 30px;
     -webkit-transition: left .3s ease, width .3s ease;
     transition: left .3s ease, width .3s ease;
     box-shadow: 0 2px 8px rgba(40, 90, 185, .1)
@@ -16213,7 +16214,8 @@ input[type=file]::file-selector-button {
 .sidebar-menu>li>a>i {
     font-size: 1.15rem;
     flex-shrink: 0;
-    background: #e9f2ff;
+    color: #fff;
+    background: #CDE2D3;
     width: 36px;
     height: 36px;
     margin-right: 15px;
@@ -16226,14 +16228,14 @@ input[type=file]::file-selector-button {
 }
 
 .sidebar-menu>li:hover>a {
-    color: #000;
-    background: #e9f2ff;
-    border-left-color: #116aef
+    color: #258640;
+    background: #CDE2D3;
+    border-left-color: #CDE2D3
 }
 
 .sidebar-menu>li:hover>a i {
     background: #fff;
-    color: #116aef
+    color: #258640;
 }
 
 .sidebar-menu>li>.treeview-menu {
@@ -16254,7 +16256,7 @@ input[type=file]::file-selector-button {
 
 .sidebar-menu>li.active>a {
     color: #000;
-    background: #e9f2ff
+    background: #CDE2D3;
 }
 
 .sidebar-menu>li.active>a i {
@@ -16263,19 +16265,19 @@ input[type=file]::file-selector-button {
 }
 
 .sidebar-menu li.active>.treeview-menu {
-    display: block
+    display: block;
 }
 
 .sidebar-menu>li.current-page>a {
-    color: #116aef
+    color: #000;
 }
 
 .sidebar-menu>li.current-page>a:hover {
-    color: #116aef
+    color: #258640;
 }
 
 .sidebar-menu>li.current-page>a i {
-    background-color: #116aef;
+    background-color: #258640;
     color: #fff
 }
 
@@ -16332,7 +16334,7 @@ input[type=file]::file-selector-button {
 .app-header {
     padding: 0 1.25rem;
     min-height: 50px;
-    background: #ffffff;
+    background: #f6f9fb;
     position: sticky;
     top: 0;
     z-index: 100
